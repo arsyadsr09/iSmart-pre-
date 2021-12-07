@@ -1,0 +1,54 @@
+body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  min-height: 100vh;
+  background-color: white;
+  font-family: "Inter", sans-serif !important;
+  color: #2f3542;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+// .w-100 {
+//   width: 0 !important;
+// }
+
+.h-100 {
+  height: 100% !important;
+}
+
+.mh-100 {
+  min-height: 100% !important;
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-family: "Montserrat", sans-serif;
+// }
+
+.pointer {
+  cursor: pointer;
+}
+
+.ant-drawer-content-wrapper {
+  height: auto !important;
+  overflow-y: scroll;
+
+  &.force-scroll {
+    height: 100% !important;
+    overflow-y: scroll;
+  }
+}
+
+.force-scroll {
+  .ant-drawer-content-wrapper {
+    height: 100% !important;
+    overflow-y: scroll;
+  }
+}

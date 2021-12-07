@@ -1,0 +1,38 @@
+$body-background: #000000;
+
+//  ==Colors\
+$default: #f58634;
+
+$primary: #0077c7;
+$secondary: #6b7c94;
+$success: #28bd66;
+$info: #008fee;
+$warning: #fed31d;
+$danger: #d51024;
+$white: #fff;
+$gray-8: #0b0e14;
+$gray-7: #273248;
+
+// ==Button
+
+// ==Button Variant
+$btn-primary: (
+  color: #fff,
+  background: #008fee,
+  border: #008fee,
+);
+$btn-secondary: (
+  color: #fff,
+  background: #282828,
+  border: #282828,
+);
+$btn-danger: (
+  color: #fff,
+  background: #d51024,
+  border: #d51024,
+);
+$btn-warning: (
+  color: #282828,
+  background: #fed31d,
+  border: #fed31d,
+);

@@ -1,0 +1,27 @@
+.tag-custom {
+  padding: 8px 12px;
+  border-radius: 2px;
+  border: none;
+
+  /* Caption/All Caps */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height, or 117% */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+#logo-sidebar {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}

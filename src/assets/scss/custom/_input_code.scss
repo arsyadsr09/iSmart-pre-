@@ -1,0 +1,17 @@
+.reactCodeInput {
+  // width: 100%;
+
+  input:focus {
+    outline: none;
+    border-radius: 2px !important;
+    border: 1px solid #315cfd !important;
+    caret-color: #315cfd;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    margin-right: 0.35rem;
+  }
+}
